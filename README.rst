@@ -2,9 +2,9 @@
 
 **Repo**: https://github.com/pahaz/static-site-paas/
 
-**HOW-TO CREATE OWN STATIC SITE SAAS ?**
-
-You need a SAAS? Just create it! 
+You need a SAAS for static sites? 
+Or you want to create a static site hosting?
+Just create it! 
 
 Step1: bootstrap it!
 --------------------
