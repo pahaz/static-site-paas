@@ -34,8 +34,8 @@ or::
 Step3: setup DNS
 ----------------
 
-For example you have server `88.85.211.202` and DNS name `8iq.ru`.
-Just add DNS records `@ A 88.85.211.202` and `* A 88.85.211.202` for your server.
+For example you have server ``88.85.211.202`` and DNS name ``8iq.ru``.
+Just add DNS records ``@ A 88.85.211.202`` and ``* A 88.85.211.202`` for your server.
 
 Check DNS access: 
  - http://8iq.ru/ -- by DNS name
@@ -46,7 +46,7 @@ You should see 404 nginx page.
 Step4: Deploy your first site
 -----------------------------
 
-You want to deploy `test1.8iq.ru` static site. Just `git clone` an example and make a `git push`:
+You want to deploy ``test1.8iq.ru`` static site. Just ``git clone`` an example and make a ``git push``:
 
 .. code-block:: bash
 
@@ -59,7 +59,7 @@ You want to deploy `test1.8iq.ru` static site. Just `git clone` an example and m
 
     $ cd test1.8iq.ru
 
-Then deploy it by `git push`:
+Then deploy it by ``git push``:
 
 .. code-block:: bash
 
@@ -80,7 +80,7 @@ Then you can deploy this site to another subdomain `prod1.8iq.ru`::
 
     $ git push static@8iq.ru:prod1.8iq.ru master
 
-If you want to change templates and `push` it to your github repository just change an origin:
+If you want to change templates and ``push`` it to your github repository just change an origin:
 
 .. code-block:: bash
 
