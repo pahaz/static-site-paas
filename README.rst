@@ -34,19 +34,19 @@ or::
 Step3: setup DNS
 ----------------
 
-For example you have server `88.89.11.22` and DNS name `8iq.ru`.
-Just add DNS records `@ A 88.89.11.22` and `* A 88.89.11.22` for your server.
+For example you have server `88.85.211.202` and DNS name `8iq.ru`.
+Just add DNS records `@ A 88.85.211.202` and `* A 88.85.211.202` for your server.
 
 Check DNS access: 
  - http://8iq.ru/ -- by DNS name
- - http://88.89.11.22/ -- by IP address
+ - http://88.85.211.202/ -- by IP address
 
 You should see 404 nginx page.
 
 Deploy your first site
 ======================
 
-Just clone an example:
+You want to deploy `test1.8iq.ru` static site. Just `git clone` an example and make a `git push`:
 
 .. code-block:: bash
 
@@ -59,7 +59,7 @@ Just clone an example:
 
     $ cd test1.8iq.ru
 
-Then deploy it:
+Then deploy it by `git push`:
 
 .. code-block:: bash
 
@@ -91,6 +91,6 @@ Create your first extension
 
 Is it really need?
 Just for static site generator integration.
-If you really need this case just create an issue.
+If you really have this case just create an issue.
 
 .. _Pahaz Blinov: https://github.com/pahaz/
