@@ -2,9 +2,12 @@
 
 **Repo**: https://github.com/pahaz/static-site-paas/
 
+Open source static site hosting
+===============================
+
 You need a SAAS for static sites? 
-Or you want to create a static site hosting?
-Just create it! 
+Or you want to create own static site hosting?
+This project help you!
 
 Step1: bootstrap it!
 --------------------
