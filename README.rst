@@ -76,7 +76,7 @@ The deploy command::
 
     $ git push static@<server>:<site-url> master
 
-Then you can deploy this site to another subdomain `prod1.8iq.ru`::
+Then you can deploy this site to another subdomain ``prod1.8iq.ru``::
 
     $ git push static@8iq.ru:prod1.8iq.ru master
 
