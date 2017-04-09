@@ -43,8 +43,8 @@ Check DNS access:
 
 You should see 404 nginx page.
 
-Deploy your first site
-======================
+Step4: Deploy your first site
+-----------------------------
 
 You want to deploy `test1.8iq.ru` static site. Just `git clone` an example and make a `git push`:
 
@@ -87,7 +87,7 @@ If you want to change templates and `push` it to your github repository just cha
     $ git remote set-url origin https://github.com/USERNAME/OTHERREPOSITORY.git
 
 Create your first extension
-===========================
+---------------------------
 
 Is it really need?
 Just for static site generator integration.
