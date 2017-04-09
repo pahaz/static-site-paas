@@ -6,7 +6,10 @@
 
 You need a SAAS? Just create it! 
 
-1. Lets start with bootstraping::
+Step1: bootstrap it!
+--------------------
+
+::
     
     wget https://raw.githubusercontent.com/pahaz/static-site-paas/master/bootstrap.sh
     sudo bash bootstrap.sh
@@ -17,7 +20,10 @@ What does the command do?
  * setup sshcommand
  * setup nginx
 
-2. Then you need to add your ssh-key::
+Step2: add your SSH key
+-----------------------
+
+Then you need to add your ssh-key::
 
     sshcommand acl-add static <USERNAME> <KEY_FILE>
 
@@ -25,10 +31,17 @@ or::
 
     curl https://github.com/<GITHUB-USERNAME>.keys | sshcommand acl-add static <GITHUB-USERNAME>
 
-3. SetUp your DNS server.
+Step3: setup DNS
+----------------
 
-For example you have server `IP1` and DNS name `8iq.ru`.
-Just add DNS records `@ A IP1` and `* A IP1` for your server.
+For example you have server `88.89.11.22` and DNS name `8iq.ru`.
+Just add DNS records `@ A 88.89.11.22` and `* A 88.89.11.22` for your server.
+
+Check DNS access: 
+ - http://8iq.ru/ -- by DNS name
+ - http://88.89.11.22/ -- by IP address
+
+You should see 404 nginx page.
 
 Deploy your first site
 ======================
